@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     for i, f in enumerate(file_extensions):
         if f == 'adoc':
-            output += f'============= Checking file: {args.infile[i]} ============='
+            output += f'============= Checking file: {args.infile[i].name} =============\n'
             output += adoc_checker(args.infile[i])
             output += check_vocabulary(args.infile[i], deny_list, warning_list)
     if output != '' and 'ERROR' in output:
