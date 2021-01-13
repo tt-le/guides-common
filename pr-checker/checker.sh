@@ -1,3 +1,4 @@
+#!/bin/sh
 set -o pipefail
 
 repo=$1
