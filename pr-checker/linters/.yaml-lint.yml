@@ -50,11 +50,11 @@ rules:
     check-multi-line-strings: false
   key-duplicates: enable
   line-length:
-    level: warning
+    level: error
     max: 80
     allow-non-breakable-words: true
     allow-non-breakable-inline-mappings: true
-  new-line-at-end-of-file: disable
+  new-line-at-end-of-file: enable
   new-lines:
     type: unix
   trailing-spaces: disable
