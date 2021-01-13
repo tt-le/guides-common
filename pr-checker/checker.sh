@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euxo pipefail
+set -o pipefail
 
 repo=$1
 pr_number=$2
